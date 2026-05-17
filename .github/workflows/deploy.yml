@@ -19,15 +19,13 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install jupyter-book
-        run: |
-          pip install jupyter-book
-          pip show jupyter-book
+      - name: Install myst
+        run: npm install -g mystmd
 
       - name: Build site
         run: |
           cd docs
-          python -m jupyter_book build .
+          myst build --html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
