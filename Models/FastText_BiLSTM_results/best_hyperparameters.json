@@ -1,0 +1,10 @@
+{
+    "lstm_units": 64,
+    "num_lstm_layers": 2,
+    "dropout_rate": 0.5,
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "sequence_length": 100,
+    "epochs": 50,
+    "embedding_dim": 100
+}

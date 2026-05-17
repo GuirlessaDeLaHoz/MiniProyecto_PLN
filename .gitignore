@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+tf_gpu/
+.env
+.DS_Store
+*.h5
+*.pt
+*.pth
+*.ckpt

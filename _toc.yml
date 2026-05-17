@@ -1,0 +1,8 @@
+format: jb-book
+root: intro
+
+chapters:
+  - file: notebooks/EDA
+  - file: notebooks/Preprocesamiento
+  - file: notebooks/Modelos
+  - file: notebooks/Análisis_Crítico

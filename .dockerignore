@@ -1,0 +1,37 @@
+# Entornos virtuales
+tf_gpu/
+venv/
+.env
+
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Notebooks
+notebooks/
+
+# Datos pesados
+data/
+Data/
+
+# Resultados grandes
+Models/
+models/
+
+# Excepto el modelo final necesario
+!Models/distilbert_result/
+!Models/distilbert_result/model/
+
+# Embeddings y preprocessing
+nlp_preprocessing/
+
+# Outputs
+results/
+*.csv
+*.npy
+*.h5
+*.keras

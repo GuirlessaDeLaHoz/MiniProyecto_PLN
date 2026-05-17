@@ -1,0 +1,14 @@
+title: Resume Classification using NLP and DistilBERT
+author: Guirlessa De la Hoz & Mariangel Mercado
+logo: ""
+
+execute:
+  execute_notebooks: off
+
+repository:
+  url: https://github.com/your-username/MiniProject_PLN
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
