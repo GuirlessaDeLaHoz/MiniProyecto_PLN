@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -20,8 +25,7 @@ jobs:
       - name: Build site
         run: |
           cd docs
-          jupyter-book start . --headless || true
-          jupyter-book build . 2>/dev/null || true
+          myst build --html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
