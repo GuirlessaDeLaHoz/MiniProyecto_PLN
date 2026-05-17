@@ -5,7 +5,6 @@ project:
   authors:
     - name: Guirlessa De la Hoz
     - name: Mariangel Mercado
-  exports:
-    - format: html
 site:
   template: book-theme
+  base_url: /MiniProyecto_PLN
