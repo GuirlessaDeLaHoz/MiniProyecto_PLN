@@ -1,11 +1,10 @@
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-venv/
-tf_gpu/
-.env
-.DS_Store
-*.h5
-*.pt
-*.pth
-*.ckpt
+# Archivos grandes
+nlp_preprocessing/fasttext.model.wv.vectors_ngrams.npy
+nlp_preprocessing/fasttext.model
+nlp_preprocessing/embedding_matrix_ft.npy
+nlp_preprocessing/embedding_matrix_w2v.npy
+nlp_preprocessing/resume_processed.csv
+nlp_preprocessing/word2vec.model
+Models/distilbert_result/model/model.safetensors
+Data/Resume/Resume_eda.csv
+Data/Resume/Resume.csv
