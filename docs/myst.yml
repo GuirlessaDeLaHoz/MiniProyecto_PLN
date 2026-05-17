@@ -1,0 +1,11 @@
+version: 1
+project:
+  title: MiniProyecto PLN
+  github: https://github.com/GuirlessaDeLaHoz/MiniProyecto_PLN
+  authors:
+    - name: Guirlessa De la Hoz
+    - name: Mariangel Mercado
+  exports:
+    - format: html
+site:
+  template: book-theme
